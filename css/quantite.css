@@ -1,0 +1,39 @@
+#qty {
+    width: 4rem;
+}
+
+.countere {
+    width: 50%;
+    margin: 10 auto;
+}
+
+.menu-container {
+    position: relative;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.menu-content {
+    position: absolute;
+    /* Adjust the top position as needed */
+    margin-left: -100px;
+
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    top: 100%;
+    z-index: 1;
+    display: block;
+
+
+
+}
+
+#toggleMenu {
+
+    margin-left: -100px;
+}
+
